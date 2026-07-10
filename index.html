@@ -58,7 +58,8 @@ body {
 
 /* ── COVER ── */
 .cover {
-  background: linear-gradient(150deg, #0d1a36 0%, #1a2744 50%, #1e3060 100%);
+  background: linear-gradient(150deg, rgba(10,20,45,0.88) 0%, rgba(20,33,64,0.82) 60%, rgba(18,36,72,0.88) 100%),
+              url('photo-aerial-labeled.jpg') center 40% / cover no-repeat;
   color: #fff;
   padding: 70px 40px 60px;
   text-align: center;
@@ -69,7 +70,7 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  background: radial-gradient(ellipse at 70% 30%, rgba(201,168,76,0.08) 0%, transparent 60%);
+  background: radial-gradient(ellipse at 70% 30%, rgba(201,168,76,0.06) 0%, transparent 60%);
   pointer-events: none;
 }
 .cover-label {
@@ -703,6 +704,13 @@ footer a { color: var(--gold); text-decoration: none; }
         </table>
       </div>
     </div>
+  </div>
+
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:36px;">
+    <img src="photo-exterior.jpg" alt="3662 N Fredonia Drive — Front Exterior"
+      style="width:100%;height:280px;object-fit:cover;border-radius:5px;display:block;">
+    <img src="photo-aerial.jpg" alt="3662 N Fredonia Drive — Aerial Context"
+      style="width:100%;height:280px;object-fit:cover;border-radius:5px;display:block;">
   </div>
 
   <div class="section-title" style="margin-bottom:12px;">Property Highlights</div>
