@@ -297,6 +297,12 @@ tbody tr.row-avg td {
 tbody tr.row-ref td { background: #fff8e8 !important; }
 tbody tr.row-uc td { background: #f5f7f1 !important; font-style: italic; color: #666; }
 
+/* Dark section tables — visibility on navy background */
+.section-dark table tbody td { background: rgba(255,255,255,0.07); color: rgba(255,255,255,0.85); }
+.section-dark table tbody tr:nth-child(even) td { background: rgba(255,255,255,0.14); }
+/* Investment summary dark card — keep dark bg on even rows */
+.inv-card-table tbody tr:nth-child(even) td { background: rgba(255,255,255,0.04) !important; }
+
 .badge-laaa {
   display: inline-block;
   background: var(--gold);
@@ -560,7 +566,7 @@ footer a { color: var(--gold); text-decoration: none; }
       <span class="cover-stat-label">Year Built / ADU</span>
     </div>
     <div class="cover-stat">
-      <span class="cover-stat-value">$1,550,000</span>
+      <span class="cover-stat-value">$1,575,000</span>
       <span class="cover-stat-label">List Price</span>
     </div>
   </div>
@@ -577,19 +583,19 @@ footer a { color: var(--gold); text-decoration: none; }
 
     <div class="metrics-grid">
       <div class="metric-card">
-        <span class="metric-value">465</span>
+        <span class="metric-value">468+</span>
         <span class="metric-label">Closed Transactions</span>
       </div>
       <div class="metric-card">
-        <span class="metric-value">$1.47B</span>
+        <span class="metric-value">$1.45B+</span>
         <span class="metric-label">Total Sales Volume</span>
       </div>
       <div class="metric-card">
-        <span class="metric-value">5,000+</span>
+        <span class="metric-value">4,200+</span>
         <span class="metric-label">Units Sold</span>
       </div>
       <div class="metric-card">
-        <span class="metric-value">34</span>
+        <span class="metric-value">36</span>
         <span class="metric-label">Median Days on Market</span>
       </div>
     </div>
@@ -605,7 +611,7 @@ footer a { color: var(--gold); text-decoration: none; }
         <p style="font-size:9.5px;color:rgba(255,255,255,0.35);text-align:center;">LAAA Team — Los Angeles Closings Map</p>
       </div>
       <div>
-        <p style="font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:16px;">Annual Volume (2017–2025)</p>
+        <p style="font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:16px;">Annual Volume (2013–2026)</p>
         <div class="vol-table-wrap" style="max-width:100%;">
           <table>
             <thead>
@@ -616,6 +622,7 @@ footer a { color: var(--gold); text-decoration: none; }
               </tr>
             </thead>
             <tbody>
+              <tr><td style="color:var(--gold);font-weight:700;">2026 YTD</td><td class="num" style="color:var(--gold);font-weight:700;">16</td><td class="num" style="color:var(--gold);font-weight:700;">$42M</td></tr>
               <tr><td>2025</td><td class="num">23</td><td class="num">$84M</td></tr>
               <tr><td>2024</td><td class="num">26</td><td class="num">$80M</td></tr>
               <tr><td>2023</td><td class="num">23</td><td class="num">$78M</td></tr>
@@ -625,6 +632,10 @@ footer a { color: var(--gold); text-decoration: none; }
               <tr><td>2019</td><td class="num">54</td><td class="num">$156M</td></tr>
               <tr><td>2018</td><td class="num">43</td><td class="num">$158M</td></tr>
               <tr><td>2017</td><td class="num">46</td><td class="num">$150M</td></tr>
+              <tr><td>2016</td><td class="num">36</td><td class="num">$88M</td></tr>
+              <tr><td>2015</td><td class="num">29</td><td class="num">$63M</td></tr>
+              <tr><td>2014</td><td class="num">14</td><td class="num">$21M</td></tr>
+              <tr><td>2013</td><td class="num">14</td><td class="num">$25M</td></tr>
             </tbody>
           </table>
         </div>
@@ -667,27 +678,27 @@ footer a { color: var(--gold); text-decoration: none; }
     <div>
       <p style="margin-bottom:14px;font-size:12.5px;line-height:1.65;color:#444;">3662 N Fredonia Drive represents a rare opportunity to acquire a stabilized, fully occupied four-unit multifamily property in one of Los Angeles' most supply-constrained residential corridors. Located in the hills of Studio City directly adjacent to Universal Studios Hollywood, the property combines institutional-quality location attributes with the operational simplicity of a small-balance four-unit asset — including a newly constructed, fully permitted 2025 ADU with a Certificate of Occupancy issued July 27, 2025.</p>
       <p style="margin-bottom:14px;font-size:12.5px;line-height:1.65;color:#444;">The current ownership group acquired the property in January 2026 and has since raised rents 3% across all units and completed a series of capital improvements including a new roof, water heater, and exterior railings. The ADU tenant is month-to-month, enabling a buyer to take the unit back at close of escrow — a built-in value-add angle for an owner-user or repositioning buyer. The three legacy units are governed by the Los Angeles Rent Stabilization Ordinance while the 2025 ADU carries full RSO exemption.</p>
-      <p style="font-size:12.5px;line-height:1.65;color:#444;">At the listed price of $1,550,000, the property is offered at a 5.37% in-place CAP rate and 13.16x GRM — below the Studio City 4-unit comp average of 4.72% CAP and 14.67x GRM, representing a compelling entry point for buyers seeking a turnkey asset in one of LA's highest-barrier submarkets.</p>
+      <p style="font-size:12.5px;line-height:1.65;color:#444;">At the listed price of $1,575,000, the property is offered at a 5.27% in-place CAP rate and 13.37x GRM — below the Studio City 4-unit comp average of 4.72% CAP and 14.67x GRM, representing a compelling entry point for buyers seeking a turnkey asset in one of LA's highest-barrier submarkets.</p>
     </div>
     <div>
       <div style="background:var(--navy);border-radius:6px;padding:20px;">
         <div style="font-size:9.5px;letter-spacing:1.8px;text-transform:uppercase;color:var(--gold);font-weight:700;margin-bottom:16px;">Investment Summary</div>
-        <table class="info-table" style="background:transparent;">
+        <table class="info-table inv-card-table" style="background:transparent;">
           <tbody>
-            <tr><td style="color:rgba(255,255,255,0.6);">List Price</td><td style="color:var(--gold);font-weight:700;">$1,550,000</td></tr>
-            <tr style="background:rgba(255,255,255,0.04) !important;"><td style="color:rgba(255,255,255,0.6);">Price / Unit</td><td style="color:#fff;">$387,500</td></tr>
-            <tr><td style="color:rgba(255,255,255,0.6);">Price / SF</td><td style="color:#fff;">$612.65</td></tr>
-            <tr style="background:rgba(255,255,255,0.04) !important;"><td style="color:rgba(255,255,255,0.6);">CAP Rate</td><td style="color:var(--gold);font-weight:700;">5.37%</td></tr>
-            <tr><td style="color:rgba(255,255,255,0.6);">GRM</td><td style="color:var(--gold);font-weight:700;">13.16x</td></tr>
-            <tr style="background:rgba(255,255,255,0.04) !important;"><td style="color:rgba(255,255,255,0.6);">NOI</td><td style="color:#fff;">$83,269</td></tr>
+            <tr><td style="color:rgba(255,255,255,0.6);">List Price</td><td style="color:var(--gold);font-weight:700;">$1,575,000</td></tr>
+            <tr><td style="color:rgba(255,255,255,0.6);">Price / Unit</td><td style="color:#fff;">$393,750</td></tr>
+            <tr><td style="color:rgba(255,255,255,0.6);">Price / SF</td><td style="color:#fff;">$622.53</td></tr>
+            <tr><td style="color:rgba(255,255,255,0.6);">CAP Rate</td><td style="color:var(--gold);font-weight:700;">5.27%</td></tr>
+            <tr><td style="color:rgba(255,255,255,0.6);">GRM</td><td style="color:var(--gold);font-weight:700;">13.37x</td></tr>
+            <tr><td style="color:rgba(255,255,255,0.6);">NOI</td><td style="color:#fff;">$82,956</td></tr>
             <tr><td style="color:rgba(255,255,255,0.6);">GSR (Annual)</td><td style="color:#fff;">$117,744</td></tr>
-            <tr style="background:rgba(255,255,255,0.04) !important;"><td style="color:rgba(255,255,255,0.6);">Units</td><td style="color:#fff;">4</td></tr>
+            <tr><td style="color:rgba(255,255,255,0.6);">Units</td><td style="color:#fff;">4</td></tr>
             <tr><td style="color:rgba(255,255,255,0.6);">Building SF</td><td style="color:#fff;">2,530 SF</td></tr>
-            <tr style="background:rgba(255,255,255,0.04) !important;"><td style="color:rgba(255,255,255,0.6);">Lot Size</td><td style="color:#fff;">3,933 SF (0.09 AC)</td></tr>
+            <tr><td style="color:rgba(255,255,255,0.6);">Lot Size</td><td style="color:#fff;">3,933 SF (0.09 AC)</td></tr>
             <tr><td style="color:rgba(255,255,255,0.6);">Year Built</td><td style="color:#fff;">1962 / ADU 2025</td></tr>
-            <tr style="background:rgba(255,255,255,0.04) !important;"><td style="color:rgba(255,255,255,0.6);">Zoning</td><td style="color:#fff;">RD1.5-1</td></tr>
+            <tr><td style="color:rgba(255,255,255,0.6);">Zoning</td><td style="color:#fff;">RD1.5-1</td></tr>
             <tr><td style="color:rgba(255,255,255,0.6);">RSO</td><td style="color:#fff;">3 units RSO; ADU exempt</td></tr>
-            <tr style="background:rgba(255,255,255,0.04) !important;"><td style="color:rgba(255,255,255,0.6);">APN</td><td style="color:#fff;">2425-005-023</td></tr>
+            <tr><td style="color:rgba(255,255,255,0.6);">APN</td><td style="color:#fff;">2425-005-023</td></tr>
           </tbody>
         </table>
       </div>
@@ -726,7 +737,7 @@ footer a { color: var(--gold); text-decoration: none; }
     </div>
     <div style="background:#f5f7fa;border-left:3px solid var(--gold);padding:14px 16px;border-radius:3px;">
       <strong style="display:block;font-size:10px;color:#888;letter-spacing:0.5px;margin-bottom:3px;">Value</strong>
-      $1,550,000 ask — below Studio City 4-unit comp avg of $1,720,200
+      $1,575,000 ask — below Studio City 4-unit comp avg of $1,720,200
     </div>
   </div>
 </div>
@@ -831,7 +842,7 @@ footer a { color: var(--gold); text-decoration: none; }
           </tr>
         </thead>
         <tbody>
-          <tr><td>Real Estate Taxes <sup>[1]</sup></td><td class="num">$19,375</td><td class="num">$4,844</td><td class="num">$7.66</td><td class="num">16.5%</td></tr>
+          <tr><td>Real Estate Taxes <sup>[1]</sup></td><td class="num">$19,688</td><td class="num">$4,922</td><td class="num">$7.78</td><td class="num">16.7%</td></tr>
           <tr><td>Insurance <sup>[2]</sup></td><td class="num">$4,500</td><td class="num">$1,125</td><td class="num">$1.78</td><td class="num">3.8%</td></tr>
           <tr><td>Utilities — Water &amp; Gas <sup>[3]</sup></td><td class="num">$3,000</td><td class="num">$750</td><td class="num">$1.19</td><td class="num">2.5%</td></tr>
           <tr><td>Repairs &amp; Maintenance <sup>[4]</sup></td><td class="num">$4,000</td><td class="num">$1,000</td><td class="num">$1.58</td><td class="num">3.4%</td></tr>
@@ -839,11 +850,11 @@ footer a { color: var(--gold); text-decoration: none; }
           <tr><td>General &amp; Administrative</td><td class="num">$1,200</td><td class="num">$300</td><td class="num">$0.47</td><td class="num">1.0%</td></tr>
           <tr class="row-summary">
             <td><strong>Total Expenses</strong></td>
-            <td class="num"><strong>$34,475</strong></td><td class="num"><strong>$8,619</strong></td><td class="num"><strong>$13.63</strong></td><td class="num"><strong>29.3%</strong></td>
+            <td class="num"><strong>$34,788</strong></td><td class="num"><strong>$8,697</strong></td><td class="num"><strong>$13.75</strong></td><td class="num"><strong>29.5%</strong></td>
           </tr>
           <tr class="row-noi">
             <td><strong>Net Operating Income</strong></td>
-            <td class="num"><strong>$83,269</strong></td><td class="num"><strong>$20,817</strong></td><td class="num"><strong>$32.91</strong></td><td class="num"><strong>70.7%</strong></td>
+            <td class="num"><strong>$82,956</strong></td><td class="num"><strong>$20,739</strong></td><td class="num"><strong>$32.79</strong></td><td class="num"><strong>70.5%</strong></td>
           </tr>
         </tbody>
       </table>
@@ -859,7 +870,7 @@ footer a { color: var(--gold); text-decoration: none; }
         <li><strong>Contract Services:</strong> Includes landscaping ($80/month per seller records), pest control, and common area maintenance. Captures all recurring service contracts.</li>
       </ol>
       <div style="margin-top:14px;padding-top:12px;border-top:1px solid var(--border);font-size:10px;color:#777;">
-        All-cash analysis. 0% vacancy applied — all four units currently occupied. NOI at list price of $1,550,000 = <strong style="color:var(--navy);">$83,269</strong> / 5.37% CAP / 13.16x GRM.
+        All-cash analysis. 0% vacancy applied — all four units currently occupied. NOI at list price of $1,575,000 = <strong style="color:var(--navy);">$82,956</strong> / 5.27% CAP / 13.37x GRM.
       </div>
     </div>
   </div>
@@ -890,13 +901,13 @@ footer a { color: var(--gold); text-decoration: none; }
             <td>$1,600,000</td><td class="num">5.17%</td><td class="num">$82,644</td><td class="num">13.59x</td>
             <td class="num">$400,000</td><td class="num">$632</td><td class="num">$20,000</td><td class="num">$35,100</td>
           </tr>
-          <tr>
-            <td>$1,575,000</td><td class="num">5.27%</td><td class="num">$82,956</td><td class="num">13.37x</td>
+          <tr class="row-highlight">
+            <td>&#9654; <strong>$1,575,000</strong> &nbsp;<span style="font-size:8px;color:var(--navy);font-weight:700;letter-spacing:1px;opacity:0.65;">LIST PRICE</span></td>
+            <td class="num">5.27%</td><td class="num">$82,956</td><td class="num">13.37x</td>
             <td class="num">$393,750</td><td class="num">$623</td><td class="num">$19,688</td><td class="num">$34,788</td>
           </tr>
-          <tr class="row-highlight">
-            <td>&#9654; <strong>$1,550,000</strong> &nbsp;<span style="font-size:8px;color:var(--navy);font-weight:700;letter-spacing:1px;opacity:0.65;">LIST PRICE</span></td>
-            <td class="num">5.37%</td><td class="num">$83,269</td><td class="num">13.16x</td>
+          <tr>
+            <td>$1,550,000</td><td class="num">5.37%</td><td class="num">$83,269</td><td class="num">13.16x</td>
             <td class="num">$387,500</td><td class="num">$613</td><td class="num">$19,375</td><td class="num">$34,475</td>
           </tr>
           <tr>
@@ -913,7 +924,7 @@ footer a { color: var(--gold); text-decoration: none; }
     <p style="font-size:10px;color:#888;margin-top:4px;">RE taxes calculated at each price point × 1.25%. All other expenses held constant. All-cash analysis; 0% vacancy applied.</p>
     <div class="trade-range">
       <div class="tr-label">Estimated Trade Range — Current Investment Environment</div>
-      <div class="tr-price">$1,500,000 &nbsp;–&nbsp; $1,600,000</div>
+      <div class="tr-price">$1,500,000 &nbsp;–&nbsp; $1,650,000</div>
     </div>
   </div>
 </div>
@@ -1051,31 +1062,31 @@ footer a { color: var(--gold); text-decoration: none; }
           <td>1</td>
           <td><a href="https://maps.google.com/?q=11127+Sunshine+Terrace+Studio+City+CA" target="_blank" style="color:var(--navy);font-weight:600;">11127 Sunshine Terrace</a>, Studio City</td>
           <td>Studio</td>
-          <td class="num">300</td><td class="num">$2,200</td><td class="num">$7.33</td><td>CoStar</td>
+          <td class="num">300</td><td class="num">$2,200</td><td class="num">$7.33</td><td></td>
         </tr>
         <tr>
           <td>2</td>
           <td><a href="https://maps.google.com/?q=10913+Fruitland+Dr+Studio+City+CA" target="_blank" style="color:var(--navy);font-weight:600;">10913 Fruitland Dr</a>, Studio City Hills</td>
           <td>Studio</td>
-          <td class="num">600</td><td class="num">$2,195</td><td class="num">$3.66</td><td>CoStar</td>
+          <td class="num">600</td><td class="num">$2,195</td><td class="num">$3.66</td><td></td>
         </tr>
         <tr>
           <td>3</td>
           <td><a href="https://maps.google.com/?q=3400+Cahuenga+Blvd+W+Los+Angeles+CA" target="_blank" style="color:var(--navy);font-weight:600;">3400 Cahuenga Blvd W</a>, Los Angeles</td>
           <td>2 BR / 2 BA</td>
-          <td class="num">1,112</td><td class="num">$3,300</td><td class="num">$2.97</td><td>CoStar</td>
+          <td class="num">1,112</td><td class="num">$3,300</td><td class="num">$2.97</td><td></td>
         </tr>
         <tr>
           <td>4</td>
           <td><a href="https://www.apartments.com/ava-studio-city-north-hollywood-ca/" target="_blank" style="color:var(--navy);font-weight:600;">10979 Bluffside Dr (AVA Studio City)</a></td>
           <td>Studio</td>
-          <td class="num">515</td><td class="num">$2,076</td><td class="num">$4.03</td><td>CoStar</td>
+          <td class="num">515</td><td class="num">$2,076</td><td class="num">$4.03</td><td></td>
         </tr>
         <tr>
           <td>5</td>
           <td><a href="https://maps.google.com/?q=10989+Bluffside+Dr+Studio+City+CA" target="_blank" style="color:var(--navy);font-weight:600;">10989 Bluffside Dr</a>, Studio City</td>
           <td>2 BR / 2 BA</td>
-          <td class="num">999</td><td class="num">$3,350</td><td class="num">$3.35</td><td>CoStar</td>
+          <td class="num">999</td><td class="num">$3,350</td><td class="num">$3.35</td><td></td>
         </tr>
         <tr class="row-avg">
           <td colspan="3" style="color:#555;">Market Average</td>
