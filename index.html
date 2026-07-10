@@ -264,30 +264,30 @@ tbody td {
 tbody td.num { text-align: right; font-variant-numeric: tabular-nums; }
 tbody tr:nth-child(even) td { background: #f8f9fb; }
 tbody tr.row-total td {
-  background: var(--navy) !important;
-  color: #fff;
+  background: var(--gold) !important;
+  color: var(--navy);
   font-weight: 700;
   border: none;
 }
-tbody tr.row-total td.num { color: var(--gold); }
+tbody tr.row-total td.num { color: var(--navy); }
 tbody tr.row-summary td {
   background: #eef1f6 !important;
   font-weight: 700;
   border-top: 2px solid var(--navy);
 }
 tbody tr.row-noi td {
-  background: var(--navy) !important;
-  color: #fff;
+  background: var(--gold) !important;
+  color: var(--navy);
   font-weight: 700;
 }
-tbody tr.row-noi td.num { color: var(--gold); }
+tbody tr.row-noi td.num { color: var(--navy); }
 tbody tr.row-highlight td {
-  background: var(--navy) !important;
-  color: #fff;
+  background: var(--gold) !important;
+  color: var(--navy);
   font-weight: 700;
   font-size: 12px;
 }
-tbody tr.row-highlight td.num { color: var(--gold); }
+tbody tr.row-highlight td.num { color: var(--navy); }
 tbody tr.row-avg td {
   background: #eef1f6 !important;
   font-weight: 700;
@@ -777,7 +777,7 @@ footer a { color: var(--gold); text-decoration: none; }
             <td class="num">$9,812</td>
             <td class="num">$3.88</td>
             <td class="num">$117,744</td>
-            <td style="color:var(--gold);font-size:10px;">ADU Deliverable Vacant</td>
+            <td style="color:var(--navy);font-size:10px;font-style:italic;">ADU Deliverable Vacant</td>
           </tr>
         </tbody>
       </table>
@@ -895,7 +895,7 @@ footer a { color: var(--gold); text-decoration: none; }
             <td class="num">$393,750</td><td class="num">$623</td><td class="num">$19,688</td><td class="num">$34,788</td>
           </tr>
           <tr class="row-highlight">
-            <td>&#9654; <strong>$1,550,000</strong> &nbsp;<span style="font-size:8px;color:var(--gold);font-weight:400;letter-spacing:1px;">LIST PRICE</span></td>
+            <td>&#9654; <strong>$1,550,000</strong> &nbsp;<span style="font-size:8px;color:var(--navy);font-weight:700;letter-spacing:1px;opacity:0.65;">LIST PRICE</span></td>
             <td class="num">5.37%</td><td class="num">$83,269</td><td class="num">13.16x</td>
             <td class="num">$387,500</td><td class="num">$613</td><td class="num">$19,375</td><td class="num">$34,475</td>
           </tr>
@@ -1048,23 +1048,33 @@ footer a { color: var(--gold); text-decoration: none; }
       </thead>
       <tbody>
         <tr>
-          <td>1</td><td>11127 Sunshine Terrace, Studio City</td><td>Studio</td>
+          <td>1</td>
+          <td><a href="https://maps.google.com/?q=11127+Sunshine+Terrace+Studio+City+CA" target="_blank" style="color:var(--navy);font-weight:600;">11127 Sunshine Terrace</a>, Studio City</td>
+          <td>Studio</td>
           <td class="num">300</td><td class="num">$2,200</td><td class="num">$7.33</td><td>CoStar</td>
         </tr>
         <tr>
-          <td>2</td><td>10913 Fruitland Dr, Studio City Hills</td><td>Studio</td>
+          <td>2</td>
+          <td><a href="https://maps.google.com/?q=10913+Fruitland+Dr+Studio+City+CA" target="_blank" style="color:var(--navy);font-weight:600;">10913 Fruitland Dr</a>, Studio City Hills</td>
+          <td>Studio</td>
           <td class="num">600</td><td class="num">$2,195</td><td class="num">$3.66</td><td>CoStar</td>
         </tr>
         <tr>
-          <td>3</td><td>3400 Cahuenga Blvd W, Los Angeles</td><td>2 BR / 2 BA</td>
+          <td>3</td>
+          <td><a href="https://maps.google.com/?q=3400+Cahuenga+Blvd+W+Los+Angeles+CA" target="_blank" style="color:var(--navy);font-weight:600;">3400 Cahuenga Blvd W</a>, Los Angeles</td>
+          <td>2 BR / 2 BA</td>
           <td class="num">1,112</td><td class="num">$3,300</td><td class="num">$2.97</td><td>CoStar</td>
         </tr>
         <tr>
-          <td>4</td><td>10979 Bluffside Dr (AVA Studio City)</td><td>Studio</td>
+          <td>4</td>
+          <td><a href="https://www.apartments.com/ava-studio-city-north-hollywood-ca/" target="_blank" style="color:var(--navy);font-weight:600;">10979 Bluffside Dr (AVA Studio City)</a></td>
+          <td>Studio</td>
           <td class="num">515</td><td class="num">$2,076</td><td class="num">$4.03</td><td>CoStar</td>
         </tr>
         <tr>
-          <td>5</td><td>10989 Bluffside Dr, Studio City</td><td>2 BR / 2 BA</td>
+          <td>5</td>
+          <td><a href="https://maps.google.com/?q=10989+Bluffside+Dr+Studio+City+CA" target="_blank" style="color:var(--navy);font-weight:600;">10989 Bluffside Dr</a>, Studio City</td>
+          <td>2 BR / 2 BA</td>
           <td class="num">999</td><td class="num">$3,350</td><td class="num">$3.35</td><td>CoStar</td>
         </tr>
         <tr class="row-avg">
